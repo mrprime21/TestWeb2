@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>APLIKASI INVENTORY</h2><br>
+        <form method="POST" action="proses_login.php">
+            <table border="0">
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td>: <input type="text" id="username" name="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td>: <input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Login" class="button"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Belum punya akun? <a href="daftar_akun.php">Daftar disini</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
